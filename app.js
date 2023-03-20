@@ -10,9 +10,8 @@ const getPostTitles = async (site) => {
 		const postTitles = [];
 
 		$('a').each((_idx, el) => {
-      console.log(el.attribs.href); //el //el.attribs.href
-			const postTitle = $(el).text()
-			postTitles.push(postTitle)
+      const link = el.attribs.href
+			postTitles.push(link)
 		});
 
 		return postTitles;
@@ -21,5 +20,5 @@ const getPostTitles = async (site) => {
 	}
 };
 
-getPostTitles('https://old.reddit.com/r/programming/')
+getPostTitles('https://www.google.com/')
   .then((postTitles) => console.log(postTitles));
