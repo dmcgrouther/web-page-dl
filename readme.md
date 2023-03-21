@@ -1,16 +1,26 @@
 To get the code running, here are the following steps with the respective terminal commands:
 
 1. Clone this repo:
+```
 git clone https://github.com/dmcgrouther/web-page-dl.git
+```
 
 2. Go into the directory:
+```
 cd web-page-dl
+```
 
 3. Install the node packages:
+```
 npm install
+```
 
 4. Run the following command:
+```
 npm start
+```
+
+
 
 You should see an array of links printed out for the website in the variable exampleSite. This can be changed as needed. 
 
