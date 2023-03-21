@@ -4,6 +4,7 @@ https://www.scrapingbee.com/blog/web-scraping-javascript/
 
 And I havily modified this code:
 
+```
 const axios = require('axios');
 const cheerio = require('cheerio');
 
@@ -28,3 +29,5 @@ const getPostTitles = async () => {
 
 getPostTitles()
     .then((postTitles) => console.log(postTitles));
+
+```
