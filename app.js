@@ -20,5 +20,7 @@ const getPostTitles = async (site) => {
 	}
 };
 
-getPostTitles('https://www.google.com/')
+let exampleSite = 'https://www.google.com/'
+
+getPostTitles(exampleSite)
   .then((postTitles) => console.log(postTitles));

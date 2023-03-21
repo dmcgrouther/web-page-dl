@@ -12,7 +12,7 @@ npm install
 4. Run the following command:
 npm start
 
-You should see an array of links printed out.
+You should see an array of links printed out for the website in the variable exampleSite. This can be changed as needed. 
 
 
 I used this article:
