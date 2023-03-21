@@ -1,3 +1,5 @@
+The main script is in app.js.
+
 To get the code running, here are the following steps with the respective terminal commands:
 
 1. Clone this repo:
@@ -20,7 +22,7 @@ npm install
 npm start
 ```
 
-You should see an array of links printed out for the website in the variable exampleSite. This can be changed as needed. 
+You should see an array of links printed out for the website in the variable exampleSite. This can be changed as needed in App.js. 
 
 <br>
 
