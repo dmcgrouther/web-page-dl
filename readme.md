@@ -2,7 +2,7 @@ I used this article:
 https://www.scrapingbee.com/blog/web-scraping-javascript/
 
 
-And I havily modified this code:
+I used this code as a starting point to write my script:
 
 ```
 const axios = require('axios');
