@@ -1,20 +1,20 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-const getPostTitles = async (site) => {
+const getLinks = async (site) => {
 	try {
 		const { data } = await axios.get(
       site
 		);
 		const $ = cheerio.load(data);
-		const postTitles = [];
+		const links = [];
 
 		$('a').each((_idx, el) => {
       const link = el.attribs.href
-			postTitles.push(link)
+			links.push(link)
 		});
 
-		return postTitles;
+		return links;
 	} catch (error) {
 		throw error;
 	}
@@ -22,5 +22,5 @@ const getPostTitles = async (site) => {
 
 let exampleSite = 'https://www.google.com/'
 
-getPostTitles(exampleSite)
-  .then((postTitles) => console.log(postTitles));
+getLinks(exampleSite)
+  .then((links) => console.log(links));
