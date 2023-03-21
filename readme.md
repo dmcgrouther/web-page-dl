@@ -20,16 +20,15 @@ npm install
 npm start
 ```
 
-
-
 You should see an array of links printed out for the website in the variable exampleSite. This can be changed as needed. 
 
+<br>
 
-I used this article:
+I used this article as a starting point for my code:
 https://www.scrapingbee.com/blog/web-scraping-javascript/
 
 
-I used this code as a starting point to write my script:
+This was the following script I modified:
 
 ```
 const axios = require('axios');
